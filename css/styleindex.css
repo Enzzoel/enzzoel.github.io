@@ -1,0 +1,123 @@
+.titlehead{
+    background-color: #6ecaee;
+}
+.titlehead div a{
+    font-size: 36px;
+}
+@media (max-width: 500px){
+    .titlehead div a{
+        font-size: 28px;
+    }}
+@media (max-width: 390px){
+    .titlehead div a{
+        font-size: 20px;
+    }}
+/*ESTILIZAÇÃO DE LOGO*/
+#bg-logokanah{
+    background-color: #6ecaee;
+    padding-bottom: 10px;
+}
+#logokanah{
+    width: 150px;
+}
+/*ESTILIZANDO A NOSSA NAVBAR QUE FICA NO TOP*/
+#navz{
+    background-color: #6ecaee;
+    border: none;
+}
+#navz div{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+#navz div a{
+    padding-top: 0px;
+    border: none;
+    height: 10px;
+    background-color: #6ecaee;
+    color: white;
+    font-size: 16px;
+}
+#navz div a.active{
+    color: #0076a5;
+    font-size: 18px;
+}
+#navz div a:hover{
+    font-size: 18px;
+}
+/*CONTEUDOS*/
+#overlaynet{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 500px){
+    #overlaynet{
+        width: 82%;
+    }}
+#img-overlay{
+    filter: blur(3px);
+}
+#blockqp{
+    color:black;
+}
+.card-img-overlay{
+    padding-bottom: 10px;
+}
+.card-img-overlay p{
+    font-size: 14px;
+}
+.card{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: linear-gradient(to bottom right, rgb(255, 225, 225), rgb(200, 230, 255));
+}
+.card-deck{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/*Cards # conteudo - tamanhos*/
+@media (min-width: 501px){
+    #conteudo-principal{
+        display: grid;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }}
+@media (max-width: 500px){
+    #conteudo-principal{
+        display: grid;
+        justify-content: center;
+    }}
+/*ESTILIZANDO OS LINKS DOS CARDS PRINCIPAIS*/
+.card-body a{
+    background-color: #6ecaee;
+    border: none;
+}
+.card-body a:hover{
+    background-color: #0076a5;
+    border: none;
+}
+/*FOOTER*/
+.page-footer{
+    margin-top: 15px;
+    background-color: #6ecaee;
+}
+.fa {
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+    border: none;
+    text-decoration: none;
+}
